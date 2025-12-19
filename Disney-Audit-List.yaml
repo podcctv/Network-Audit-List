@@ -1,5 +1,4 @@
 payload:
-  # --- Disney+ 核心流媒体域名 ---
   - '+.disneyplus.com'
   - '+.disney-plus.net'
   - '+.disneystreaming.com'
@@ -7,8 +6,6 @@ payload:
   - '+.dssedge.com'
   - '+.dssott.com'
   - '+.execute-api.us-east-1.amazonaws.com'
-
-  # --- Star+ 与 Hotstar (不同地区的 Disney+ 变体) ---
   - '+.starplus.com'
   - '+.star-brasil.com'
   - '+.star-latam.com'
@@ -17,8 +14,6 @@ payload:
   - '+.hotstar-cdn.net'
   - '+.hotstar-labs.com'
   - '+.hotstarext.com'
-
-  # --- 迪士尼集团核心及品牌域名 ---
   - '+.disney.com'
   - '+.disney.asia'
   - '+.disney.io'
@@ -39,16 +34,12 @@ payload:
   - '+.20thcenturystudios.com'
   - '+.nationalgeographic.com'
   - '+.ngeo.com'
-
-  # --- 电视网与体育 (ABC / ESPN) ---
   - '+.abc.com'
   - '+.abcnews.com'
   - '+.espn.com'
   - '+.espn.net'
   - '+.espncdn.com'
   - '+.watchespn.com'
-
-  # --- 验证、分析与基建 (防止登录转圈/版权报错) ---
   - '+.disney-portal.my.onetrust.com'
   - '+.disney.my.sentry.io'
   - '+.adobedtm.com'
@@ -58,8 +49,6 @@ payload:
   - '+.js-agent.newrelic.com'
   - '+.omtrdc.net'
   - '+.go.com'
-
-  # --- 进程名匹配 (Android/TV App) ---
   - 'PROCESS-NAME,com.disney.disneyplus'
   - 'PROCESS-NAME,com.disney.datg.videoplatforms.android.abc'
   - 'PROCESS-NAME,com.hotstar'
