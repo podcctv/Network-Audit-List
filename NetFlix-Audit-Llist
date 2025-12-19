@@ -1,11 +1,50 @@
 payload:
+  # --- 核心域名 (通配符格式) ---
   - '+.netflix.com'
   - '+.netflix.net'
   - '+.nflxext.com'
-  - '+.nflximg.net'
   - '+.nflximg.com'
+  - '+.nflximg.net'
   - '+.nflxvideo.net'
   - '+.nflxso.net'
-  - '+.netflixdnstest0.com'
+  - '+.nflxsearch.net'
   - '+.fast.com'
+  
+  # --- 地区/附属域名 ---
+  - '+.netflix.ca'
+  - '+.netflix.com.au'
+  - '+.netflixinvestor.com'
   - '+.netflixstudios.com'
+  - '+.netflixtechblog.com'
+  - '+.flxvpn.net'
+
+  # --- 关键基础设施与 CDN ---
+  - 'e13252.dscg.akamaiedge.net'
+  - 'h-netflix.online-metrix.net'
+  - 'netflix.com.edgesuite.net'
+  - '+.netflix.com.edgesuite.net'
+  - '+.cookielaw.org'
+  - '+.onetrust.com'
+  - '+.us-west-2.amazonaws.com'
+
+  # --- 测试域名 (全覆盖) ---
+  - '+.netflixdnstest0.com'
+  - '+.netflixdnstest1.com'
+  - '+.netflixdnstest2.com'
+  - '+.netflixdnstest3.com'
+  - '+.netflixdnstest4.com'
+  - '+.netflixdnstest5.com'
+  - '+.netflixdnstest6.com'
+  - '+.netflixdnstest7.com'
+  - '+.netflixdnstest8.com'
+  - '+.netflixdnstest9.com'
+  - '+.netflixdnstest10.com'
+
+  # --- 关键字匹配 (用于动态负载均衡域名) ---
+  - 'DOMAIN-KEYWORD,apiproxy-device-prod-nlb-'
+  - 'DOMAIN-KEYWORD,dualstack.apiproxy-'
+  - 'DOMAIN-KEYWORD,dualstack.ichnaea-web-'
+  - 'DOMAIN-KEYWORD,netflixdnstest'
+
+  # --- 进程匹配 (适用于 Android/TV 客户端) ---
+  - 'PROCESS-NAME,com.netflix.mediaclient'
