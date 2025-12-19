@@ -1,0 +1,19 @@
+payload:
+  # --- Gemini 主站与网页端 ---
+  - '+.gemini.google.com'
+  - '+.gemini.google'
+  - '+.aistudio.google.com'
+  - '+.makersuite.google.com'
+  - '+.bard.google.com'   # 旧域名，仍有跳转需求
+
+  # --- Gemini 核心 API 与后台 (极其重要) ---
+  - 'generativelanguage.googleapis.com'
+  - 'alkaliminer-pa.googleapis.com'
+  - 'proactivebackend-pa.googleapis.com'
+  - 'cloudcode-pa.googleapis.com'
+
+  # --- 关联 AI 实验服务 ---
+  - '+.notebooklm.google.com'
+  - '+.deepmind.google'
+  - '+.ai.google'
+  - '+.labs.google'
