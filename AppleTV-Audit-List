@@ -1,0 +1,6 @@
+payload:
+  - '+.tv.apple.com'
+  - '+.itunes.apple.com'
+  - '+.apple-dns.net'
+  - '+.play-edge.itunes.apple.com'
+  - '+.uts-api.itunes.apple.com'
