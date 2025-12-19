@@ -1,10 +1,84 @@
 payload:
+  # --- 核心主站域名 ---
   - '+.youtube.com'
+  - '+.youtu.be'
+  - '+.youtube'
+  - '+.yt.be'
+  - '+.withyoutube.com'
+  - '+.youtubefanfest.com'
+  - '+.youtubeeducation.com'
+
+  # --- 视频流与 CDN (关键：决定视频播放流畅度) ---
   - '+.googlevideo.com'
+  - '+.gvt1.com'
+  - '+.gvt2.com'
+  - '+.video.google.com'
+  - '+.wide-youtube.l.google.com'
+  - '+.youtube-ui.l.google.com'
+
+  # --- 静态资源、头像与缩略图 (解决转圈/图片加载慢) ---
   - '+.ytimg.com'
   - '+.ggpht.com'
-  - '+.youtu.be'
+  - '+.ggpht.cn'
   - '+.youtube-nocookie.com'
-  - '+.youtubeeducation.com'
-  - '+.yt8.es'
+
+  # --- 专项应用 (Music/Kids/Gaming) ---
+  - '+.youtubegaming.com'
+  - '+.youtubekids.com'
+  - '+.youtubemusic.com'
+  - '+.youtubego.com'
+  - '+.youtubego.id'
+  - '+.youtubego.in'
+  - '+.youtubemobilesupport.com'
+
+  # --- API 与 谷歌服务关联 (解决登录与评论加载) ---
+  - '+.youtube.googleapis.com'
+  - '+.youtubei.googleapis.com'
+  - '+.youtubeembeddedplayer.googleapis.com'
   - '+.nhacmp3youtube.com'
+
+  # --- 全球地区性顶级域名 (TLD) ---
+  - '+.youtube.ae'
+  - '+.youtube.at'
+  - '+.youtube.be'
+  - '+.youtube.ca'
+  - '+.youtube.ch'
+  - '+.youtube.cl'
+  - '+.youtube.co'
+  - '+.youtube.de'
+  - '+.youtube.dk'
+  - '+.youtube.es'
+  - '+.youtube.fi'
+  - '+.youtube.fr'
+  - '+.youtube.hk'
+  - '+.youtube.ie'
+  - '+.youtube.in'
+  - '+.youtube.it'
+  - '+.youtube.jp'
+  - '+.youtube.kr'
+  - '+.youtube.mx'
+  - '+.youtube.my'
+  - '+.youtube.nl'
+  - '+.youtube.no'
+  - '+.youtube.ph'
+  - '+.youtube.pl'
+  - '+.youtube.pt'
+  - '+.youtube.ru'
+  - '+.youtube.se'
+  - '+.youtube.sg'
+  - '+.youtube.tw'
+  - '+.youtube.uk'
+  - '+.youtube.vn'
+
+  # --- 关键字匹配 (覆盖动态生成的子域名) ---
+  - 'DOMAIN-KEYWORD,youtube'
+
+  # --- 指定 IP CIDR (您提供的核心节点段) ---
+  - '172.110.32.0/21'
+  - '216.73.80.0/20'
+  - '2620:120:e000::/40'
+
+  # --- 进程名匹配 (Android/TV App) ---
+  - 'PROCESS-NAME,com.google.android.youtube'
+  - 'PROCESS-NAME,com.google.android.youtube.tv'
+  - 'PROCESS-NAME,com.google.android.apps.youtube.music'
