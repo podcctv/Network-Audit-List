@@ -1,12 +1,58 @@
 payload:
+  # --- 核心域名 (Max & HBO Max) ---
   - '+.max.com'
-  - '+.hbo.com'
   - '+.hbomax.com'
-  - '+.hbogo.com'
+  - '+.hbo.com'
   - '+.hbonow.com'
+  - '+.hbogo.com'
   - '+.hbomaxcdn.com'
-  - '+.hboasia.com'
-  - '+.hbogoasia.com'
   - '+.discomax.com'
   - '+.maxgo.com'
+
+  # --- HBO Go / 亚洲与地区性域名 ---
+  - '+.hboasia.com'
+  - '+.hbogoasia.com'
+  - '+.hbogoasia.hk'
+  - '+.hbogoasia.id'
+  - '+.hbogoasia.ph'
+  - '+.hbogoasia.sg'
+  - '+.hbogoasia.tw'
+  - '+.hbogo.co.th'
+  - '+.hbogo.eu'
+  - '+.nowe.hk'
+  - '+.nowe.com'
+  - '+.now.com.hk'
+
+  # --- 视频流与 CDN 基础设施 ---
+  - '+.warnermediacdn.com'
+  - '+.hboasialive.akamaized.net'
+  - '+.hbogoprod-vod.akamaized.net'
+  - '+.hboasia1-i.akamaihd.net'
+  - '+.hboasia2-i.akamaihd.net'
+  - '+.hboasia3-i.akamaihd.net'
+  - '+.hboasia4-i.akamaihd.net'
+  - '+.hboasia5-i.akamaihd.net'
+  - '+.bcbolthboa-a.akamaihd.net'
+  - '+.cf-images.ap-southeast-1.prod.boltdns.net'
+  - '+.manifest.prod.boltdns.net'
+  - '+.players.brightcove.net'
+  - '+.hbomaxdash.s.llnwi.net'
+  - '+.dai3fd1oh325y.cloudfront.net'
+
+  # --- 验证、认证与 API (极其重要) ---
+  - 'execute-api.us-east-1.amazonaws.com'
+  - 'execute-api.ap-southeast-1.amazonaws.com'
+  - '+.hbounify-prod.evergent.com'
   - '+.beam-svc.com'
+  - '+.hbo.map.fastly.net'
+  - '+.hbogeo.cust.footprint.net'
+  - '+.cookielaw.org'
+  - '+.youboranqs01.com'
+
+  # --- 其他关联 ---
+  - '+.cinemax.com'
+  - '+.forthethrone.com'
+
+  # --- 进程名匹配 (Android/TV App) ---
+  - 'PROCESS-NAME,com.hbo.hbonow'
+  - 'PROCESS-NAME,com.wbd.stream'
