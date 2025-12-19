@@ -6,7 +6,7 @@ payload:
   - '+.hbonow.com'
   - '+.hbogo.com'
   - '+.hbomaxcdn.com'
-  - '+.discomax.com'
+  - '+.discomax.com'     # 已涵盖 images.cdn.prd.api.discomax 等所有子域名
   - '+.maxgo.com'
 
   # --- HBO Go / 亚洲与地区性域名 ---
@@ -24,6 +24,8 @@ payload:
   - '+.now.com.hk'
 
   # --- 视频流与 CDN 基础设施 ---
+  - '+.h264.io'          # 新增：图片中出现的 cf.prd.media.h264.io
+  - '+.mediamelon.com'   # 新增：图片中出现的 beacons-new/register.mediamelon.com
   - '+.warnermediacdn.com'
   - '+.hboasialive.akamaized.net'
   - '+.hbogoprod-vod.akamaized.net'
