@@ -1,18 +1,39 @@
 payload:
-  # --- Gemini 主站与网页端 ---
+  # ===============================
+  # Google 核心主域
+  # ===============================
+  - '+.google.com'
+  - '+.googleusercontent.com'
+  - '+.gstatic.com'
+  - '+.googleapis.com'
+  - '+.googleadservices.com'
+  - '+.googletagmanager.com'
+  - '+.googletagservices.com'
+  - '+.doubleclick.net'
+
+  # ===============================
+  # Google Cloud / AI / Dev
+  # ===============================
+  - '+.cloud.google.com'
+  - '+.firebase.google.com'
+  - '+.firebaseapp.com'
+  - '+.firebaseio.com'
+  - '+.appspot.com'
+  - '+.withgoogle.com'
+  - '+.developers.google.com'
+
+  # ===============================
+  # Gemini / AI / DeepMind（你原有的）
+  # ===============================
   - '+.gemini.google.com'
   - '+.gemini.google'
   - '+.aistudio.google.com'
   - '+.makersuite.google.com'
-  - '+.bard.google.com'   # 旧域名，仍有跳转需求
-
-  # --- Gemini 核心 API 与后台 (极其重要) ---
+  - '+.bard.google.com'
   - 'generativelanguage.googleapis.com'
   - 'alkaliminer-pa.googleapis.com'
   - 'proactivebackend-pa.googleapis.com'
   - 'cloudcode-pa.googleapis.com'
-
-  # --- 关联 AI 实验服务 ---
   - '+.notebooklm.google.com'
   - '+.deepmind.google'
   - '+.ai.google'
